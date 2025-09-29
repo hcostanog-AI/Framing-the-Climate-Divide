@@ -1,2 +1,4 @@
 # Framing-the-Climate-Divide
 Investigation of the discursive power dynamics in the negotiations around global climate by analyzing presidential speeches and stakeholders speeches from the COP15 Copenhagen summit in 2009. Utilizing the advanced Natural Language Processing (NLP) technique of BERTopic
+This clash of discursive frames underscores the core research problem addressed in this thesis: the imbalance in agenda-setting power in climate negotiations. The ability of Global North actors to dominate discourse and frame “the problem” and its “solutions” in technocratic terms has profound consequences. It marginalizes alternative perspectives rooted in justice, reinforces existing power asymmetries, and limits the scope of possible agreements. Understanding how these competing frames manifest in key moments of international climate diplomacy, such as COP15, is therefore critical for unpacking the broader political economy of climate governance (Ülgen, 2021).
+
