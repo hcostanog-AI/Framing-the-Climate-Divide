@@ -1,68 +1,87 @@
-# Framing-the-Climate-Divide
-Investigation of the discursive power dynamics in the negotiations around global climate by analyzing presidential speeches and stakeholders speeches from the COP15 Copenhagen summit in 2009. Utilizing the advanced Natural Language Processing (NLP) technique of BERTopic.
 
-This clash of discursive frames underscores the core research problem addressed in this thesis: the imbalance in agenda-setting power in climate negotiations. The ability of Global North actors to dominate discourse and frame “the problem” and its “solutions” in technocratic terms has profound consequences. It marginalizes alternative perspectives rooted in justice, reinforces existing power asymmetries, and limits the scope of possible agreements. Understanding how these competing frames manifest in key moments of international climate diplomacy, such as COP15, is therefore critical for unpacking the broader political economy of climate governance (Ülgen, 2021).
+# 🌍 Framing the Climate Divide
+**Discursive Power Dynamics in COP15 Climate Negotiations (2009)**  
+*An NLP-based investigation of presidential and stakeholder speeches using BERTopic.*
 
-This thesis investigates how discursive power asymmetries between the Global North and the Global South manifest in climate negotiations, focusing on the Copenhagen Climate Summit (COP15). Studing  how language itself functions as a site of political struggle. Recent advances in natural language processing (NLP) provide a unique methodological opportunity to systematically analyze large corpora of political speeches, thereby revealing patterns of framing, emphasis, and omission that shape global climate governance (Ojadi, J. O., Onukwulu, E. C., Odionu, C. S., & Owulade, O. A. (2023); Adekoya, R., Akinfaderin, A.,2025).
-The central research question guiding this study is:
-What differences in thematic focus, identified through NLP topic modeling, indicate Global North actors’ agenda-setting power in framing COP15 climate negotiations primarily around technocratic solutions, compared to Global South leaders’ emphasis on historical responsibility and equity?
+*Abstract*
 
-Why BERTopic is Superior for This Study
-
-This methodological innovation makes BERTopic particularly well suited for analyzing political discourse at COP15. The speeches delivered by heads of state are relatively short, rhetorically dense, and often employ varied linguistic formulations for similar ideas (e.g., “historical responsibility” vs. “climate debt”). By leveraging contextual embeddings, BERTopic captures these subtleties far better than LDA or other earlier models.
-Moreover, BERTopic’s flexibility allows the study to retain small but politically significant topics, such as mentions of “loss and damage” or “technology transfer,” which might otherwise be drowned out by larger themes in probabilistic models. In doing so, the method strengthens the ability to empirically trace how Global North and Global South leaders articulated competing frames of technocracy versus justice, thereby aligning the computational method with the theoretical concerns of discourse, power, and agenda-setting.
-
-To interpret results, the following outputs were generated:
-
-•	Topic frequency distributions, showing which themes were most prevalent across all speeches.
-
-•	Regional disaggregation, where topics were compared between Global North and Global South using both raw counts and normalized percentages, highlighting asymmetries in emphasis.
-
-•	Cross-frame analysis, linking topics to the two central discursive frames identified in the theoretical framework: technocratic solutions (North) and climate justice (South).
-
-Comparative Insight: Evidence of Agenda-Setting Power
-
-The disparities between the two blocs provide empirical evidence of the Global North’s agenda-setting power in international climate negotiations. The North’s disproportionate emphasis on technocratic and procedural discourses (approximately 45% of its topic distribution) suggests a capacity to define the terms of debate, shifting attention toward mitigation technologies, agreements, and institutional mechanisms, while relegating questions of justice, compensation, and vulnerability to the margins. The South, by contrast, continues to resist this framing by insisting on equity and responsibility narratives. Yet, the relative underrepresentation of these justice-oriented topics in the overall distribution underscores the structural asymmetry of voice and influence.
-
-Taken together, the findings illustrate a persistent discursive imbalance: while both groups rhetorically converge on the urgency of climate action, the Global North frames solutions within a technocratic paradigm that reinforces its leadership in shaping climate governance, whereas the Global South foregrounds justice claims that often remain subordinated within negotiation outcomes.
-
-Discussion
-
-Reinforcing the Discursive Divide
-
-The results of this study need to be understood against the backdrop of a long-standing discursive asymmetry in climate negotiations, where the Global North has historically framed the debate around technocratic pathways, while the Global South has consistently sought to foreground equity and responsibility. Scholars have described this divide as one of “organized irresponsibility” (Steig & Oels, 2025), where procedural and technical framings dominate negotiation agendas, effectively displacing discussions about historical accountability and distributive justice.
-
-As Friman and Linnér (2008) and Ülgen (2021) emphasize, the Global North has advanced a discourse of innovation, carbon markets, and green technology as the primary instruments of global mitigation. Such framings portray climate change as a technical challenge amenable to managerial solutions, thereby privileging actors with financial and technological capacity. This is not merely a matter of preferred solutions but of agenda-setting power, as technocratic framings marginalize equity-oriented claims by recasting them as secondary or aspirational rather than central to global governance.
-
-In contrast, research from critical climate governance scholarship documents how Global South actors consistently articulate a counter-discourse of climate justice, vulnerability, and historical responsibility. The persistence of these framings reflects the dominance of what Steig and Oels (2025) describe as the cli-mentality of the Paris era, a discursive regime that radicalizes neoliberal governance logics from the Kyoto Protocol. Mitigation is reframed through nationally determined contributions that emphasize self-governance, while adaptation is cast as a depoliticized exercise in managing inevitable futures. Climate finance, meanwhile, becomes a matter of financialisation and risk management, and loss and damage is rendered as charity rather than reparation. Against this backdrop, Southern negotiators invoke principles such as common but differentiated responsibilities (CDR), climate debt, and liability, challenging the foreclosure of justice-oriented pathways by insisting on recognition of historical inequalities.
-
-This resistance is not merely rhetorical. It reflects an effort to reclaim normative ground in international negotiations by insisting that climate change must be understood as a question of justice between historically unequal parties. By foregrounding colonial legacies, disproportionate historical emissions, and the vulnerabilities of least developed countries and small island states, Global South actors make visible what dominant cli-mentalities tend to obscure: that climate governance is fundamentally about responsibility, redistribution, and recognition of structural inequalities.
-
-The empirical findings of this study reinforce these theoretical insights. The prominence of technocratic topics in Northern speeches illustrates how discourse operates as a form of soft power, privileging certain solution pathways while sidelining others. At the same time, the persistent articulation of equity frames by the South, despite their relative marginalization, underscores the durability of this discursive divide. As Ülgen (2021) notes, the North–South cleavage is not merely about policy preferences but about competing worldviews of what climate governance should entail, one centered on technical optimization, the other on redressing structural inequality.
-
-Taken together, these results confirm that language itself is a terrain of struggle in global climate politics. Far from being neutral, discursive framings shape not only what is debated but also what is excluded, thereby entrenching asymmetries in power and influence.
-
-Study Limitations and Future Research
-
-While this study provides novel empirical insights into the discursive dynamics of COP15, it is important to recognize its limitations. First, the analysis is confined to a single event, the Copenhagen summit of 2009. Presidential speeches at COPs are highly symbolic moments of agenda-setting, but they are also relatively brief and formulaic, often shaped by diplomatic protocol and domestic political considerations. As Steig and Oels (2025) emphasizes, climate governance increasingly operates through diffuse and multi-layered arenas of negotiation, and presidential interventions represent only one dimension of this complex process. Consequently, the findings here should not be overgeneralized to the entirety of global climate politics.
-
-Second, the focus on leaders’ speeches may privilege rhetorical positioning over the more technical or operational dimensions of negotiation. As Bazilian, M.  (2009) and Bodansky, D., et al. (2023) highlight, much of the real contestation over climate governance occurs in the design of mechanisms, such as carbon markets, technology transfers, or adaptation funds, that are often negotiated at the ministerial or expert level. By focusing on high-level discourse, this study captures the symbolic framing of negotiations but may understate the extent of technical bargaining that follows.
-Third, while the binary classification of Global North and Global South provides analytical clarity, it also entails simplification. As Ülgen (2021) notes, the North–South divide, though persistent, is increasingly complicated by emerging economies and shifting alliances that blur traditional geopolitical boundaries. Future work could refine this categorization, for example by incorporating “coalitions of the willing” such as the Umbrella Group, BASIC, or the Alliance of Small Island States (AOSIS), which cut across the simple North–South axis.
-
-For future research, several avenues appear promising. One would be to extend the methodology to a broader corpus of climate negotiations, including multiple COPs from Copenhagen (2009) to Paris (2015) and beyond, in order to track whether the semantic divide identified here has deepened, narrowed, or shifted over time. Such longitudinal analysis could reveal whether the Paris Agreement’s emphasis on “common but differentiated responsibilities” (CDR) and nationally determined contributions (NDCs) altered the balance between technocratic and justice-oriented frames (Agarwal & Narain, 1991; Steig & Oels, 2025).
-
-Another path would be to compare presidential or plenary speeches with other genres of negotiation texts, such as draft agreements, negotiation submissions, or technical reports, to assess whether equity frames are more prominent in formal statements than in the actual architecture of agreements. Additionally, the use of advanced NLP models beyond BERTopic, such as dynamic topic modeling or contextual embeddings fine-tuned on climate policy corpora, could provide even greater precision in capturing evolving discursive trends.
-
-Finally, future research should also consider the implications of discursive dominance for trust and legitimacy in climate governance. As several studies note (Ülgen, 2021; Steig & Oels, 2025), the repeated sidelining of Southern equity concerns risks reinforcing perceptions of organized irresponsibility, in which global institutions manage climate change in ways that prioritize stability for the powerful rather than justice for the vulnerable. By systematically mapping such discursive asymmetries, NLP-based approaches can thus make an important contribution to understanding, and potentially redressing, the persistent fractures in global climate politics.
-
-Conclusion
-
-The application of BERTopic to presidential speeches delivered at COP15 has demonstrated the existence of a clear discursive divide. Leaders from the Global North disproportionately emphasized technocratic themes, such as emissions reductions, new agreements, and technological or financial mechanisms, that frame climate change as a problem of technical optimization. In contrast, leaders from the Global South consistently foregrounded adaptation, vulnerability, and the principle of historical responsibility, framing climate change as a matter of justice and equity. While both blocs shared a baseline of general climate discourse, the stark divergence in thematic focus reveals competing visions of what climate governance should entail.
-
-These findings underscore that discursive differences are not incidental but symptomatic of deeper power asymmetries. The prominence of technocratic frames in Northern speeches illustrates how agenda-setting power operates in practice: privileging solution pathways that align with the interests and capacities of developed nations, while marginalizing justice-oriented demands from the South. At the same time, the persistence of equity frames in Southern discourse, despite their limited uptake in the negotiation outcomes, signals both the durability of this cleavage and the structural constraints that continue to shape climate governance.
-
-Beyond these substantive contributions, this study highlights the potential of AI-driven methods to critically analyze the language of power in international relations. By capturing semantic nuance across a large corpus of political texts, tools such as BERTopic offer new avenues for empirically testing long-standing theoretical claims about discourse, framing, and agenda-setting. As climate negotiations grow increasingly complex, the ability to systematically map how competing voices frame the problem of climate change can enrich scholarly understanding and inform more equitable governance.
-
-In sum, the analysis presented here shows that the discursive battleground of COP15 was structured not only by emissions targets and financial pledges but also by competing vocabularies of technocracy and justice. Recognizing and interrogating these divides is essential for moving toward a more inclusive climate regime — one in which the voices of the most vulnerable are not sidelined but meaningfully integrated into global solutions.
+Investigation of the discursive power dynamics in the negotiations around global climate by analyzing presidential speeches and stakeholders speeches from the COP15 Copenhagen summit in 2009. Utilizing the advanced Natural Language Processing (NLP) technique of BERTopic, the study aims to identify and compare the thematic focuses and speeches framing of Global North and Global South leaders. The central hypothesis is that Global North actors primarily frame the climate concerns around technocratic solutions and market mechanisms, while their Global South counterparts emphasize historical responsibility and equity. This research aims to uncover the latent topics that reveal a fundamental divide in agenda-setting, thereby providing empirical evidence for the ideological schism that often plagues international climate diplomacy. The findings will contribute to our understanding of how language and AI-powered text analysis can illuminate power imbalances in global governance.
 
 
+---
+
+## 📖 Project Overview
+This project investigates how **discursive power asymmetries** shaped the 2009 Copenhagen Climate Summit (COP15). By applying **Natural Language Processing (NLP)** to speeches from the Global North and Global South, the study reveals how agenda-setting power operates through language.
+
+- **Global North** → framed solutions in **technocratic terms** (technology, finance, carbon markets).  
+- **Global South** → emphasized **justice, equity, and historical responsibility**.  
+
+Understanding this discursive divide is key to unpacking the **political economy of climate governance** and how language reinforces structural inequalities.
+
+---
+
+## 🛠️ Methodology
+
+### Why BERTopic?
+- Captures **contextual embeddings**, enabling nuanced detection of terms like *“historical responsibility”* vs *“climate debt”*.  
+- Retains **small but significant topics** (e.g., *loss and damage*, *technology transfer*) often missed by LDA or traditional models.  
+- Well-suited for **short, rhetorically dense speeches**.
+
+### Pipeline
+1. **Data Collection** → COP15 presidential and stakeholder speeches.  
+2. **Preprocessing** → Cleaning, tokenization, stopword removal.  
+3. **Topic Modeling with BERTopic** → Extract themes and clusters.  
+4. **Comparative Analysis**:
+   - Topic frequency distributions.  
+   - Regional disaggregation (North vs. South).  
+   - Cross-frame mapping (technocratic vs. justice frames).  
+
+---
+
+## 📊 Key Findings
+
+- **Technocratic Emphasis (North):** ~45% of topics focused on mitigation technologies, agreements, and institutional mechanisms.  
+- **Justice Orientation (South):** Equity, responsibility, and vulnerability consistently foregrounded but less represented overall.  
+- **Discursive Divide:** Confirms a persistent imbalance where **technocratic discourse dominates negotiation agendas**, marginalizing justice-oriented claims.  
+
+---
+
+## 🔍 Comparative Insights
+
+- **North →** Agenda-setting power reinforced through discourse of innovation, carbon markets, and managerial solutions.  
+- **South →** Counter-discourse of climate justice, historical responsibility, and equity.  
+- **Outcome →** Justice frames persist but remain structurally sidelined.  
+
+---
+
+## 📈 Outputs
+
+- Topic frequency distributions across speeches.  
+- Comparative visualizations of North vs. South framing.  
+- Cross-frame mapping of **technocracy vs. justice** discourses.  
+
+---
+
+## 📚 Limitations & Future Work
+- **Scope:** Analysis limited to COP15 (2009). Future research could extend across multiple COPs (2009–2025).  
+- **Text Type:** Focus on high-level speeches; further work could compare with draft agreements or technical reports.  
+- **Geopolitical Complexity:** North–South binary simplifies shifting alliances (e.g., BASIC, AOSIS).  
+
+---
+
+## 💡 Broader Impact
+This project shows how **AI-driven methods** can expose the language of power in climate diplomacy.  
+By systematically mapping discursive asymmetries, NLP offers a path toward more **inclusive and just climate governance**.
+
+---
+
+## 🧰 Tech Stack
+- **Python**  
+- **BERTopic**  
+- **Transformers / Sentence Embeddings**  
+- **scikit-learn, pandas, numpy**  
+- **matplotlib, plotly**  
+
+---
+
+## The thesis paper is attached to this repository
